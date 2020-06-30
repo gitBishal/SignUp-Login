@@ -1,4 +1,4 @@
 module.exports = {
-  mongoURI: 'mongodb://localhost/merndemo',
+  mongoURI: 'mongodb://localhost/librarymanagement',
   secretOrKey: 'secretkey',
 };
