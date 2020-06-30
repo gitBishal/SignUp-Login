@@ -168,12 +168,12 @@ router.post('/register', (req, res) => {
                   var transporter = nodemailer.createTransport({
                     service: 'gmail',
                     auth: {
-                      user: 'poudelbisal@gmail.com',
-                      pass: '1234bisal4321',
+                      user: 'Your email id ',
+                      pass: 'Your email password',
                     },
                   });
                   var mailOptions = {
-                    from: 'poudelbisal@gmail.com',
+                    from: 'your email id',
                     to: user.email,
                     subject: 'Account Verification Token',
                     text:
